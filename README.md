@@ -1,15 +1,7 @@
-# Converter
-Temperature and Currency Converter
-
-Authors : Hang Long, Yannni Su, Ying Zhai, Zhiheng Tao  
-## Version 0.2.0
-## Second Iteration
-This application includes the conversion of 3 units of temperature and 8 currencies (CNY, EUR, JPY, GBP, HKD, AUD, KRW, USD).
-First, the program creates a selection screen for users traveling to different countries and regions, prompting them to perform a temperature conversion or currency conversion. If the user selects temperature conversion, the temperature conversion screen appears and reminds the user of the weather sensation. If a currency conversion is selected, the user can choose two of the eight currencies to convert according to his or her needs.
-## Technology used
-- Intellij
-- Java
-- Swing
-- Database
-## Build Instructions
-Run main.Main.java
+# 这里简单说一下如何修改
+    
+    以前的所有数据转换都写成一个类，通过传入参数表示转换什么东西，因为以前的写法实在是有些问题，
+    一个单位转换就被写成了一个类，而实际上所有的都可以写成一个类，这样无论是阅读还是调用都要方便一些
+    所有的UI都放在UI文件夹里面
+    Databases存放数据库和数据查询类
+    以上
